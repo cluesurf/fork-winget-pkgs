@@ -1,0 +1,49 @@
+PackageIdentifier: ClueSurf.Task
+PackageVersion: 0.5.4
+InstallerType: zip
+NestedInstallerType: portable
+Installers:
+  - Architecture: neutral
+    InstallerUrl: https://github.com/cluesurf/task/releases/download/v0.5.4/cluesurf-task.zip
+    InstallerSha256: A071E9236587CD5A198006D88F84CEABEAA799FAC732C5EB486AABA69A7882B5
+    NestedInstallerFiles:
+      - RelativeFilePath: cluesurf-task.cmd
+        PortableCommandAlias: cluesurf-task
+Dependencies:
+  PackageDependencies:
+    - PackageIdentifier: Git.Git
+    - PackageIdentifier: cURL.cURL
+    - PackageIdentifier: JernejSimoncic.Wget
+    - PackageIdentifier: GnuPG.GnuPG
+    - PackageIdentifier: 7zip.7zip
+    - PackageIdentifier: GnuWin32.Make
+    - PackageIdentifier: LLVM.LLVM
+    - PackageIdentifier: bloodrock.pkg-config
+    - PackageIdentifier: OpenJS.NodeJS.LTS
+    - PackageIdentifier: Python.Python.3.12
+    - PackageIdentifier: GoLang.Go
+    - PackageIdentifier: Rustlang.Rustup
+    - PackageIdentifier: RubyInstallerTeam.Ruby
+    - PackageIdentifier: EclipseAdoptium.Temurin.21.JDK
+    - PackageIdentifier: Apache.Maven
+    - PackageIdentifier: JuliaLang.Julia
+    - PackageIdentifier: Google.DartSDK
+    - PackageIdentifier: PHP.PHP
+    - PackageIdentifier: TheDocumentFoundation.LibreOffice
+    - PackageIdentifier: ImageMagick.ImageMagick
+    - PackageIdentifier: Gyan.FFmpeg
+    - PackageIdentifier: Inkscape.Inkscape
+    - PackageIdentifier: KornelLesinski.Gifsicle
+    - PackageIdentifier: calibre.calibre
+    - PackageIdentifier: JohnMacFarlane.Pandoc
+    - PackageIdentifier: MiKTeX.MiKTeX
+    - PackageIdentifier: qpdf.qpdf
+    - PackageIdentifier: ArtifexSoftware.GhostScript
+    - PackageIdentifier: OliverBetz.Poppler
+    - PackageIdentifier: FontForge.FontForge
+    - PackageIdentifier: OliverBetz.ExifTool
+    - PackageIdentifier: BurntSushi.ripgrep.MSVC
+    - PackageIdentifier: sharkdp.fd
+    - PackageIdentifier: DuckDB.cli
+ManifestType: installer
+ManifestVersion: 1.12.0

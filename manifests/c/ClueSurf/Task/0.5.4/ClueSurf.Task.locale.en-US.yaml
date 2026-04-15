@@ -1,0 +1,30 @@
+PackageIdentifier: ClueSurf.Task
+PackageVersion: 0.5.4
+PackageLocale: en-US
+Publisher: ClueSurf
+PublisherUrl: https://clue.surf
+PublisherSupportUrl: https://github.com/cluesurf/task/issues
+Author: Lance Pollard
+PackageName: cluesurf-task
+PackageUrl: https://github.com/cluesurf/task
+License: MIT
+LicenseUrl: https://github.com/cluesurf/task/blob/make/license.md
+ShortDescription: Native tool dependencies for @cluesurf/task
+Description: |-
+    Metapackage that installs every CLI @cluesurf/task shells out to:
+  ffmpeg, ImageMagick, pandoc, libreoffice, fontforge, fonttools, qpdf,
+  HarfBuzz, TeX Live, unar, atool, and friends.
+  
+  The Node CLI itself is installed separately from npm
+  (pnpm add -g @cluesurf/task). This package provides only the
+  surrounding native toolchain.
+Moniker: cluesurf-task
+Tags:
+  - cluesurf
+  - metapackage
+  - ffmpeg
+  - imagemagick
+  - pandoc
+  - libreoffice
+ManifestType: defaultLocale
+ManifestVersion: 1.12.0
